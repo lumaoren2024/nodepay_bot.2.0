@@ -30,12 +30,12 @@ read -p "输入 1 or 2: " choice
 # 根据用户选择运行相应的 Python 文件
 case $choice in
 1)
-    echo "Running noproxy_nodepay.py..."
-    python3 noproxy_nodepay.py
+    echo "Running noproxy_nodepay..."
+    python3 noproxy_nodepay
     ;;
 2)
-    echo "Running proxy_nodepay.py..."
-    python3 proxy_nodepay.py
+    echo "Running proxy_nodepay..."
+    python3 proxy_nodepay
     ;;
 *)
     echo "选择无效。退出..."
