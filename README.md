@@ -11,9 +11,12 @@ nodepay.ai签到 100% 在线免费 Python3
 
 # 运行代码的步骤 -
 ## 1、获取相关的代码
+
 np_token 获取
-方法1:chrome f12 进入开发中心，然后找到网络：device-networks 这样的标签。找到 authorization:里面的代码就可以了，千万别复制：Bearer
-方法2:chrome f12 进入开发中心，控制台输入：localStorage.getItem('np_token');
+
+>方法1:chrome f12 进入开发中心，然后找到网络：device-networks 这样的标签。找到 authorization:里面的代码就可以了，千万别复制：Bearer
+>
+>方法2:chrome f12 进入开发中心，控制台输入：localStorage.getItem('np_token');
 
 ## 2、运行脚本
 ```bash
