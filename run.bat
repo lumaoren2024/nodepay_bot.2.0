@@ -23,17 +23,17 @@ pip install -r requirements.txt
 
 :: 提示用户选择运行的 Python 文件
 echo Choose which Python file to run:
-echo 1. noproxy_nodepay.py
-echo 2. proxy_nodepay.py
+echo 1. noproxy_nodepay
+echo 2. proxy_nodepay
 set /p choice=Enter 1 or 2: 
 
 :: 根据用户选择运行相应的 Python 文件
 if "%choice%"=="1" (
-    echo Running noproxy_nodepay.py...
-    python noproxy_nodepay.py
+    echo Running noproxy_nodepay...
+    python noproxy_nodepay
 ) else if "%choice%"=="2" (
-    echo Running proxy_nodepay.py...
-    python proxy_nodepay.py
+    echo Running proxy_nodepay...
+    python proxy_nodepay
 ) else (
     echo Invalid choice. Exiting...
     exit /b 1
