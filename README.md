@@ -21,9 +21,12 @@ np_token 获取
 ## 2、运行脚本
 ```bash
 #mac/linux 运行run.sh
-bash run.sh
-#windows，双击run.bat
-run.bat
+chmod +x noproxy_nodepay
+./noproxy_nodepay
+chmod +x proxy_nodepay
+./proxy_nodepay
+#windows
+#双击noproxy_nodepay.exe或者proxy_nodepay.exe
 ```
 
 # 运行情况
