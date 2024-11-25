@@ -28,7 +28,12 @@ chmod +x proxy_nodepay
 #windows
 #双击noproxy_nodepay.exe或者proxy_nodepay.exe
 ```
-
+## Docker一键启动脚本
+```bash
+chmod +x start.sh
+./start.sh
+#win用户请在WSl下运行，并且确保你已经安装了docker
+```
 # 运行情况
 出现下列log就代表在跑了
 ```bash
