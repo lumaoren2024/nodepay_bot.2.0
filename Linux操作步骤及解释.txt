@@ -1,0 +1,98 @@
+下面 Linux 脚本和命令的逐步详解和过程：
+
+1. 下载文件
+输入:
+wget https://github.com/lumaoren2024/nodepay_bot.2.0/releases/download/NodePay_Bot_3.5/proxy_nodepay_Linux_3.5.zip
+
+• wget: 下载工具，用于从指定的 URL 下载文件。
+• URL: https://github.com/... 是下载文件的地址。
+• 作用: 从 GitHub 下载名为 proxy_nodepay_Linux_3.5.zip 的压缩文件到当前目录。
+
+2. 解压文件
+输入:
+unzip proxy_nodepay_Linux_3.5.zip
+
+• unzip: 用于解压 .zip 文件。
+• 作用: 解压 proxy_nodepay_Linux_3.5.zip 文件，解压后的内容通常会生成一个同名文件夹或一组文件。
+
+3. 进入解压后的目录
+输入:
+cd proxy_nodepay_Linux_3.5
+
+• cd: 切换目录。
+• 作用: 进入解压后的 proxy_nodepay_Linux_3.5 文件夹。
+
+4. 赋予所有文件可执行权限
+输入:
+chmod +x *
+
+• chmod: 修改文件权限。
+• +x: 为文件添加可执行权限。
+• *: 表示当前目录中的所有文件。
+• 作用: 允许所有脚本和二进制文件可以被执行。
+
+5. 刷新文件列表
+• 步骤说明: “然后下面文件列表右键刷新一下” 
+• 作用: 确保界面已更新，显示已赋予可执行权限的文件。
+
+6. 编辑文本文件
+
+点击进入proxy_nodepay_Linux 修改txt
+(按照提示输入token和三个ip)
+注意:ip标头必须是http开头,不能是socks.
+
+• 说明: 通过文件管理器或命令行工具进入 proxy_nodepay_Linux 文件夹并编辑相关的 .txt 文件。
+• 作用: 修改脚本或配置文件（具体文件未明确，需按需求编辑）。
+
+7. 再次赋予文件可执行权限
+输入:
+chmod +x *
+
+• 说明: 确保在修改文本文件后，重新赋予其可执行权限。
+
+8. 运行主程序
+输入:
+./Nodepay_Linux
+
+• ./: 表示运行当前目录中的可执行文件。
+• Nodepay_Linux: 这是主程序的文件名。
+• 作用: 启动 Nodepay_Linux 主程序。
+
+!!!!!!!为了使程序24H运行需要执行接下来操作!!!!!!!
+
+9. 终止程序
+
+ctrl+c
+(主屏幕上按住ctrl+c键)
+
+• ctrl+c: 是终止正在运行的命令的快捷键。
+• 作用: 手动停止正在运行的 Nodepay_Linux 程序。
+
+10. 安装 screen 工具
+输入:
+apt install screen
+
+• apt: Ubuntu 或 Debian 系统的包管理工具。
+• install: 用于安装软件。
+• screen: 允许用户在终端会话中运行多个会话。
+• 作用: 安装 screen 工具以便后台运行程序。
+
+11. 创建新的 screen 会话
+输入:
+screen -S nodepay
+
+• screen: 创建新的虚拟终端会话。
+• -S nodepay: 给新建的会话命名为 nodepay。
+• 作用: 创建一个名为 nodepay 的 screen 会话，用于后台运行程序。
+
+12. 再次运行程序
+输入:
+./Nodepay_Linux
+
+• 作用: 在新的 screen 会话中启动 Nodepay_Linux 主程序。
+
+结束
+
+
+!!!!!!!!!!!!!!注意:!!!!!!!!!!!
+每次在要修改txt文件是先点击屏幕,按下Ctrl+c键,暂停程序的运行,然后在修改文件,修改完成后在程序输入栏再次输入./Nodepay_Linux运行程序
