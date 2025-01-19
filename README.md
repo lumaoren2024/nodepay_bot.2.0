@@ -8,7 +8,7 @@ nodepay.ai签到 100% 在线免费 Python3
 格式：email,name,passwd
 例子：dandan@gmail.com,dandan0x12,Uysw6345.H
 #### 1、2 api_key.txt 说明
-在https://2captcha.com/网站申请key，4u大概可以认证4000次左右，注册和抓取token才需要用到这个功能。挂机不用！
+在 https://2captcha.com/ 网站申请key，4u大概可以认证4000次左右，注册和抓取token才需要用到这个功能。挂机不用！
 在2captcha管理中心找到Account settings->API Key 复制放到文档中！
 #### 1、3 proxies.txt 说明
 注册和登录使用时的代理，格式如下：
