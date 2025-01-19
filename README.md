@@ -42,7 +42,7 @@ chmod +x NodePay_Linux
 ```
 
 
-# 4.0脚本 3挂机功能
+## 脚本 3挂机功能特别说明
 ## 不想花钱买验证器的骚年，手工抓取教程
 打开链接并登录 ``https://app.nodepay.ai/dashboard``
 在页面上按 F12 打开控制台并输入代码（Ctrl + Shift + i）检查
